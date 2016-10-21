@@ -1,0 +1,33 @@
+{
+  "name": "protractor-starter",
+  "version": "0.0.1",
+  "description": "Protractor starting kit for writing end-to-end tests for angular.js applications. Using TypeScript for strong typing and rich code completion suppor mixed with useful plugins built-in to the starterkit to help you get started writing protractor tests in no time.",
+  "main": "conf.js",
+  "scripts": {
+    "compile": "tsc",
+    "pretest": "npm run compile",
+    "test": "protractor output/config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasunkv/protractor-starter.git"
+  },
+  "keywords": [
+    "protractor",
+    "angular",
+    "typescript",
+    "starter-kit",
+    "boilerplate"
+  ],
+  "author": "99X Techology",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kasunkv/protractor-starter/issues"
+  },
+  "homepage": "https://github.com/kasunkv/protractor-starter#readme",
+  "dependencies": {
+    "jasmine": "^2.5.2",
+    "protractor": "^4.0.9",
+    "typescript": "^2.0.3"
+  }
+}

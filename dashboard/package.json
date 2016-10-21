@@ -1,0 +1,16 @@
+{
+  "name": "protractor-starterkit-dashboard",
+  "version": "0.0.1",
+  "description": "Real-time dashboard to vizualize test results in real-time as test execute.",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "dashboard",
+    "protractor",
+    "end2end"
+  ],
+  "author": "99X Technology",
+  "license": "MIT"
+}
