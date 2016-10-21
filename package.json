@@ -4,7 +4,9 @@
   "description": "Protractor starting kit for writing end-to-end tests for angular.js applications. Using TypeScript for strong typing and rich code completion suppor mixed with useful plugins built-in to the starterkit to help you get started writing protractor tests in no time.",
   "main": "conf.js",
   "scripts": {
-    "test": "protractor conf.js"
+    "compile": "tsc",
+    "pretest": "npm run compile",
+    "test": "protractor output/config.js"
   },
   "repository": {
     "type": "git",
