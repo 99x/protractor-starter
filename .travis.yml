@@ -9,7 +9,7 @@ before_script:
   - webdriver-manager update  
   - gulp > /dev/null & # start server
   - sleep 10 # give server time to start
-  - npm compile
+  - npm run compile
 
 script:
   - node_modules/.bin/protractor output/config.js --browser=firefox
