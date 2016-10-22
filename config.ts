@@ -7,5 +7,13 @@ export let config: Config = {
     },
     specs: ['sample.spec.js'],
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    noGlobals: true
+    noGlobals: true,
+    onPrepare: () => {
+        let JasmineReporters = require('jasmine-reporters');
+        jasmine.getEnv().addReporter(new JasmineReporters.JUnitXmlReporter({
+            consolidateAll: true, 
+            savePath: 'results',
+            filePrefix: 'xmloutput'
+        }));
+    }
 };
