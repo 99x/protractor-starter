@@ -10,6 +10,7 @@ before_script:
   - webdriver-manager update
   - gulp > /dev/null & # start server
   - sleep 10 # give server time to start
+  - webdriver-manager start --standalone
   - npm run compile
 
 script:
