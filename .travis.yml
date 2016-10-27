@@ -7,7 +7,7 @@ before_script:
   - sh -e /etc/init.d/xvfb start
   - npm install typescript -g
   - npm install
-  - webdriver-manager update
+  - webdriver-manager update --standalone --firefox
   - gulp > /dev/null & # start server
   - sleep 10 # give server time to start
   - npm run compile
