@@ -8,6 +8,7 @@ before_script:
   - npm install typescript -g
   - npm install
   - webdriver-manager update --standalone --firefox
+  - 'node_modules/protractor/bin/webdriver-manager start 2>&1 &'
   - gulp > /dev/null & # start server
   - sleep 10 # give server time to start
   - npm run compile
