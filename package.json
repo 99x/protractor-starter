@@ -7,7 +7,8 @@
     "commit": "git-cz",
     "compile": "tsc",
     "pretest": "npm run compile",
-    "test": "protractor output/config.js"
+    "test": "protractor output/config.js",
+    "semantic-release": "semantic-release pre && semantic-release post"
   },
   "repository": {
     "type": "git",
@@ -37,7 +38,8 @@
   },
   "devDependencies": {
     "commitizen": "2.8.6",
-    "cz-conventional-changelog": "1.2.0"
+    "cz-conventional-changelog": "1.2.0",
+    "semantic-release": "4.3.5"
   },
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
