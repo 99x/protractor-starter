@@ -14,4 +14,4 @@ before_script:
   - npm run compile
 
 script:
-  - node_modules/.bin/protractor output/config.js --browser=chrome
+#  - node_modules/.bin/protractor output/config.js --browser=chrome
