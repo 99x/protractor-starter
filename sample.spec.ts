@@ -14,7 +14,7 @@ describe('Protractor-TypeScript Starter', () => {
         expect(browser.getLocationAbsUrl()).toContain('dashboard');
     });
 
-    it('Should logout from the application', () => {
+    xit('Should logout from the application', () => {
         element.all(by.className('dropdown-toggle')).get(1).click();
         element(by.linkText('Logout')).click();
     });

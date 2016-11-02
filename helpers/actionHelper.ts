@@ -1,5 +1,5 @@
 import { ElementFinder } from 'protractor';
-import { WaitHelper } from './WaitHelper';
+import { WaitHelper } from './waitHelper';
 
 
 export class ActionHelper {
