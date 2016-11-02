@@ -4,6 +4,7 @@
   "description": "Protractor starting kit for writing end-to-end tests for angular.js applications. Using TypeScript for strong typing and rich code completion suppor mixed with useful plugins built-in to the starterkit to help you get started writing protractor tests in no time.",
   "main": "conf.js",
   "scripts": {
+    "commit": "git-cz",
     "compile": "tsc",
     "pretest": "npm run compile",
     "test": "protractor output/config.js"
@@ -33,5 +34,17 @@
     "jasmine-reporters": "^2.2.0",
     "protractor": "^4.0.9",
     "typescript": "^2.0.3"
+  },
+  "devDependencies": {
+    "commitizen": "2.8.6",
+    "cz-conventional-changelog": "1.2.0"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run compile"
+    }
   }
 }
