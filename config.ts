@@ -6,8 +6,11 @@ export let config: Config = {
     capabilities: {
         browserName: 'firefox'
     },
+    directConnect: true,
+    
     specs: ['sample.spec.js'],
     seleniumAddress: 'http://localhost:4444/wd/hub',
+    baseUrl: 'http://localhost:8000/',
     noGlobals: true,
 
     onPrepare: () => {
