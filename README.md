@@ -1,7 +1,7 @@
 # Protractor-TypeScript Starter 
 
 [![Build Status](https://travis-ci.org/99xt/protractor-starter.svg?branch=master)](https://travis-ci.org/99xt/protractor-starter)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f44bb3f03787447d9ba45a763d747764)](https://www.codacy.com/app/99xt/protractor-starter/dashboard)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e540c98fb92b433a829bd741444a87a6)](https://www.codacy.com/app/99xt/protractor-starter?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=99xt/protractor-starter&amp;utm_campaign=Badge_Grade)
 [![npm](https://img.shields.io/npm/l/random-profile-generator.svg)](https://opensource.org/licenses/MIT)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
