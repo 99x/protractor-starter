@@ -1,6 +1,6 @@
 /*global module, require, element, protractor, by, browser, expect*/
 (function () {
-    "use strict";
+    'use strict';
     
     module.exports = function () {
         var SwithElementTypesPage = require('../helper/swithElementTypes.js'),
