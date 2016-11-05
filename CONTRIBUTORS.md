@@ -49,4 +49,7 @@ $ npm run commit
 
 [Read More](http://commitizen.github.io/cz-cli/) to learn about Commitizen and its conventions.
 
+# Current Contributors
+
+A special thanks to all the [Contributors](https://github.com/99xt/protractor-starter/graphs/contributors) of the Protractor-TypeScript Starter Project.
 **Your valuable contributions are most welcome. :) Happy Coding.**
