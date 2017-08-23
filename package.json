@@ -5,7 +5,7 @@
   "main": "conf.js",
   "scripts": {
     "commit": "git-cz",
-    "compile": "tsc",
+    "compile": "tsc --lib es2015",
     "pretest": "npm run compile",
     "test": "protractor output/config.js",
     "semantic-release": "semantic-release pre && semantic-release post"
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/kasunkv/protractor-starter#readme",
   "dependencies": {
-    "@types/jasmine": "^2.5.36",
+    "@types/jasmine": "2.5.45",
     "@types/node": "^6.0.46",
     "es6-promise": "^4.0.5",
     "jasmine": "^2.5.2",
