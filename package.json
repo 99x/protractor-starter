@@ -5,7 +5,7 @@
   "main": "conf.js",
   "scripts": {
     "commit": "git-cz",
-    "compile": "tsc",
+    "compile": "tsc --lib es2015",
     "pretest": "npm run compile",
     "test": "protractor output/config.js",
     "semantic-release": "semantic-release pre && semantic-release post"
