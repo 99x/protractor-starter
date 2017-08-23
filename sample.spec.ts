@@ -1,4 +1,4 @@
-import {browser, element, by, By} from 'protractor';
+import {browser, element, by} from 'protractor';
 
 describe('Protractor-TypeScript Starter', () => {
     beforeEach(() => {
@@ -15,7 +15,7 @@ describe('Protractor-TypeScript Starter', () => {
     });
 
     xit('Should logout from the application', () => {
-        element.all(by.className('dropdown-toggle')).get(1).click();
-        element(by.linkText('Logout')).click();
+        //element.all(by.className('dropdown-toggle')).get(1).click();
+        //element(by.linkText('Logout')).click();
     });
 });
